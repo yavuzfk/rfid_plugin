@@ -171,7 +171,7 @@ public class UHFHelper {
                 // 15.02.2023 eklenen kaydı güncellemeyip listeye atacak.
                 // tagList.remove(epc);
             }
-            tagList.put(epc, tag);
+            //tagList.put(epc, tag);
 
             final JSONArray jsonArray = new JSONArray();
 

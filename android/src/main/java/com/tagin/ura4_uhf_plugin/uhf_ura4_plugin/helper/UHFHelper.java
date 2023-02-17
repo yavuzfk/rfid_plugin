@@ -161,7 +161,7 @@ public class UHFHelper {
             EPC tag = new EPC();
 
             tag.setId("");
-            tag.setEpc(epc);
+            tag.setEpc("x"+epc);
             tag.setCount(String.valueOf(1));
             tag.setRssi(rssi);
 
@@ -171,7 +171,7 @@ public class UHFHelper {
                 // 15.02.2023 eklenen kaydı güncellemeyip listeye atacak.
                 // tagList.remove(epc);
             }
-            //tagList.put(epc, tag);
+            tagList.put(epc, tag);
 
             final JSONArray jsonArray = new JSONArray();
 
